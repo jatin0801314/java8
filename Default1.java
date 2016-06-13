@@ -4,4 +4,7 @@ public interface Default1 {
 	default void display(){
 		System.out.println("Display");
 	}
+	default void doSomething(){
+		
+	}
 }
