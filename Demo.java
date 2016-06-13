@@ -59,7 +59,7 @@ public class Demo {
 		System.out.println(isRestrictedBranch("release"));
 		System.out.println(isRestrictedBranch("master1,release"));
 		System.out.println(isRestrictedBranch(null));
-		
+		System.out.println("Inside Main Method");
 	}
 	}
 	
