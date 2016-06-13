@@ -54,6 +54,7 @@ public class Demo {
 	    }
 	    
 	public static void main(String[] args) throws Exception {
+		System.out.println("Inside start of Main Method");
 		System.out.println(isRestrictedBranch("master,release"));
 		System.out.println(isRestrictedBranch("master"));
 		System.out.println(isRestrictedBranch("release"));
