@@ -63,6 +63,10 @@ public class Demo {
 		System.out.println(isRestrictedBranch(null));
 		System.out.println("Inside Main Method");
 		System.out.println("exit of Main Method");
+		//splitting a string using , as delimeter.
+		String[] a = "abc".split(",");
+		System.out.println(a.length);
+		System.out.println(a[0]);
 	}
 	}
 	
