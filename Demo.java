@@ -67,6 +67,10 @@ public class Demo {
 		String[] a = "abc".split(",");
 		System.out.println(a.length);
 		System.out.println(a[0]);
+		//Traversing the string
+		for(String str : a){
+			System.out.println(str);
+		}
 	}
 	}
 	
